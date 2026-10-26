@@ -1,0 +1,37 @@
+[project]
+name = "contract-review-agent"
+version = "0.1.0"
+description = "Агент проверки договоров на LangGraph + MCP с локальной LLM"
+readme = "README.md"
+authors = [
+    { name = "m_safro", email = "mikl.safro@yandex.ru" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=1.7.0",
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "mcp>=1.30.0",
+    "pydantic>=2.14.1",
+]
+
+[project.scripts]
+cra = "contract_review_agent.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+pythonpath = ["."]
+testpaths = ["tests"]

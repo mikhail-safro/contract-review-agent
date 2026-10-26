@@ -1,0 +1,219 @@
+{
+ "h1_охрана": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "2.3",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "5.2",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "5.3",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "h2_ит_аутсорсинг": {
+  "risks": [
+   {
+    "clause": "2.3",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "6.2",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "7.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "h3_спецтехника_с_экипажем": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "5.2",
+    "codes": [
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "6.3",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "7.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "h4_обучение_персонала": {
+  "risks": [],
+  "injection_clauses": []
+ },
+ "h5_ремонт_оборудования": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "5.2",
+    "codes": [
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   }
+  ],
+  "injection_clauses": [
+   "5.3"
+  ]
+ },
+ "h6_юридические_услуги": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "5.2",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "6.2",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ }
+}

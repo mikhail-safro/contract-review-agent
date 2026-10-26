@@ -1,0 +1,162 @@
+{
+ "summary": {
+  "set": "holdout",
+  "model": "rules-only",
+  "date": "2026-10-27",
+  "contracts": 6,
+  "gold_risks": 31,
+  "precision": 0.538,
+  "recall": 0.452,
+  "f1": 0.491,
+  "injection_detected": "0/1",
+  "recall_on_injected": 0.333,
+  "false_alarm_injection": 0,
+  "quotes_rejected": 0,
+  "retries": 0,
+  "law_by_agent": "0/26",
+  "law_expected": "26/26",
+  "llm_calls": 0,
+  "llm_errors": 0,
+  "seconds_per_contract": 0.0
+ },
+ "contracts": [
+  {
+   "tp": 2,
+   "fp": 1,
+   "fn": 5,
+   "gold": 7,
+   "false_positives": [
+    "4.3:PENALTY_UNCAPPED"
+   ],
+   "missed": [
+    "2.2:PREPAYMENT_FULL",
+    "2.3:UNILATERAL_CHANGE",
+    "3.2:ASSIGNMENT_NO_CONSENT",
+    "5.2:AUTO_RENEWAL",
+    "5.3:UNILATERAL_TERMINATION"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "h1_охрана",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 2,
+   "fp": 2,
+   "fn": 5,
+   "gold": 7,
+   "false_positives": [
+    "4.1:ASSIGNMENT_NO_CONSENT",
+    "5.2:PENALTY_UNCAPPED"
+   ],
+   "missed": [
+    "2.3:UNILATERAL_CHANGE",
+    "3.2:DEEMED_ACCEPTANCE",
+    "4.2:ASSIGNMENT_NO_CONSENT",
+    "5.1:LIABILITY_LIMITED",
+    "6.2:UNILATERAL_TERMINATION"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "h2_ит_аутсорсинг",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 5,
+   "fp": 1,
+   "fn": 1,
+   "gold": 6,
+   "false_positives": [
+    "6.2:UNILATERAL_TERMINATION"
+   ],
+   "missed": [
+    "3.2:ASSIGNMENT_NO_CONSENT"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "h3_спецтехника_с_экипажем",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 0,
+   "fp": 3,
+   "fn": 0,
+   "gold": 0,
+   "false_positives": [
+    "4.2:PENALTY_UNCAPPED",
+    "5.2:UNILATERAL_TERMINATION",
+    "6.1:JURISDICTION"
+   ],
+   "missed": [],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "h4_обучение_персонала",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 2,
+   "fp": 2,
+   "fn": 4,
+   "gold": 6,
+   "false_positives": [
+    "5.1:PENALTY_UNCAPPED",
+    "7.1:JURISDICTION"
+   ],
+   "missed": [
+    "2.2:UNILATERAL_CHANGE",
+    "3.2:ASSIGNMENT_NO_CONSENT",
+    "4.2:LIABILITY_LIMITED",
+    "6.1:AUTO_RENEWAL"
+   ],
+   "injection_expected": [
+    "5.3"
+   ],
+   "injection_found": [],
+   "name": "h5_ремонт_оборудования",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 3,
+   "fp": 3,
+   "fn": 2,
+   "gold": 5,
+   "false_positives": [
+    "1.1:JURISDICTION",
+    "2.2:UNILATERAL_TERMINATION",
+    "4.2:LIABILITY_LIMITED"
+   ],
+   "missed": [
+    "2.2:UNILATERAL_CHANGE",
+    "3.2:ASSIGNMENT_NO_CONSENT"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "h6_юридические_услуги",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  }
+ ]
+}

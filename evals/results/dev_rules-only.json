@@ -1,0 +1,190 @@
+{
+ "summary": {
+  "set": "dev",
+  "model": "rules-only",
+  "date": "2026-10-27",
+  "contracts": 8,
+  "gold_risks": 39,
+  "precision": 0.733,
+  "recall": 0.846,
+  "f1": 0.786,
+  "injection_detected": "2/2",
+  "recall_on_injected": 0.833,
+  "false_alarm_injection": 0,
+  "quotes_rejected": 0,
+  "retries": 0,
+  "law_by_agent": "0/45",
+  "law_expected": "45/45",
+  "llm_calls": 0,
+  "llm_errors": 0,
+  "seconds_per_contract": 0.0
+ },
+ "contracts": [
+  {
+   "tp": 10,
+   "fp": 1,
+   "fn": 0,
+   "gold": 10,
+   "false_positives": [
+    "2.3:UNILATERAL_TERMINATION"
+   ],
+   "missed": [],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "01_техподдержка",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 3,
+   "fp": 3,
+   "fn": 0,
+   "gold": 3,
+   "false_positives": [
+    "4.1:PENALTY_UNCAPPED",
+    "5.2:UNILATERAL_TERMINATION",
+    "6.1:JURISDICTION"
+   ],
+   "missed": [],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "02_клининг",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 3,
+   "fp": 2,
+   "fn": 2,
+   "gold": 5,
+   "false_positives": [
+    "2.3:UNILATERAL_TERMINATION",
+    "5.2:PENALTY_UNCAPPED"
+   ],
+   "missed": [
+    "2.3:UNILATERAL_CHANGE",
+    "5.1:LIABILITY_LIMITED"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "03_разработка_ПО",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 0,
+   "fp": 1,
+   "fn": 0,
+   "gold": 0,
+   "false_positives": [
+    "5.2:UNILATERAL_TERMINATION"
+   ],
+   "missed": [],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "04_консалтинг_сбалансированный",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 4,
+   "fp": 1,
+   "fn": 1,
+   "gold": 5,
+   "false_positives": [
+    "2.2:UNILATERAL_TERMINATION"
+   ],
+   "missed": [
+    "3.2:LIABILITY_LIMITED"
+   ],
+   "injection_expected": [
+    "3.2"
+   ],
+   "injection_found": [
+    "3.2"
+   ],
+   "name": "05_логистика_injection",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 4,
+   "fp": 0,
+   "fn": 1,
+   "gold": 5,
+   "false_positives": [],
+   "missed": [
+    "3.1:DEEMED_ACCEPTANCE"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "06_маркетинг",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 3,
+   "fp": 3,
+   "fn": 1,
+   "gold": 4,
+   "false_positives": [
+    "2.2:UNILATERAL_TERMINATION",
+    "4.2:UNILATERAL_TERMINATION",
+    "5.3:JURISDICTION"
+   ],
+   "missed": [
+    "2.2:UNILATERAL_CHANGE"
+   ],
+   "injection_expected": [],
+   "injection_found": [],
+   "name": "07_бухгалтерия",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  },
+  {
+   "tp": 6,
+   "fp": 1,
+   "fn": 1,
+   "gold": 7,
+   "false_positives": [
+    "2.3:UNILATERAL_TERMINATION"
+   ],
+   "missed": [
+    "4.2:UNILATERAL_TERMINATION|PREPAYMENT_FULL"
+   ],
+   "injection_expected": [
+    "3.2"
+   ],
+   "injection_found": [
+    "3.2"
+   ],
+   "name": "08_SaaS_injection",
+   "seconds": 0.0,
+   "llm_calls": 0,
+   "llm_errors": 0,
+   "rejected": 0,
+   "retries": 0
+  }
+ ]
+}

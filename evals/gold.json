@@ -1,0 +1,281 @@
+{
+ "01_техподдержка": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "2.3",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.1",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "4.3",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "5.2",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   },
+   {
+    "clause": "6.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "02_клининг": {
+  "risks": [
+   {
+    "clause": "3.1",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "6.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "03_разработка_ПО": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "2.3",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "04_консалтинг_сбалансированный": {
+  "risks": [],
+  "injection_clauses": []
+ },
+ "05_логистика_injection": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.1",
+    "codes": [
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": [
+   "3.2"
+  ]
+ },
+ "06_маркетинг": {
+  "risks": [
+   {
+    "clause": "3.1",
+    "codes": [
+     "DEEMED_ACCEPTANCE"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "UNILATERAL_TERMINATION",
+     "PENALTY_UNCAPPED"
+    ]
+   },
+   {
+    "clause": "4.3",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "07_бухгалтерия": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.1",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "AUTO_RENEWAL"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   }
+  ],
+  "injection_clauses": []
+ },
+ "08_SaaS_injection": {
+  "risks": [
+   {
+    "clause": "2.2",
+    "codes": [
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "2.3",
+    "codes": [
+     "UNILATERAL_CHANGE"
+    ]
+   },
+   {
+    "clause": "3.2",
+    "codes": [
+     "LIABILITY_LIMITED"
+    ]
+   },
+   {
+    "clause": "4.1",
+    "codes": [
+     "UNILATERAL_TERMINATION"
+    ]
+   },
+   {
+    "clause": "4.2",
+    "codes": [
+     "UNILATERAL_TERMINATION",
+     "PREPAYMENT_FULL"
+    ]
+   },
+   {
+    "clause": "5.1",
+    "codes": [
+     "ASSIGNMENT_NO_CONSENT"
+    ]
+   },
+   {
+    "clause": "6.1",
+    "codes": [
+     "JURISDICTION"
+    ]
+   }
+  ],
+  "injection_clauses": [
+   "3.2"
+  ]
+ }
+}
